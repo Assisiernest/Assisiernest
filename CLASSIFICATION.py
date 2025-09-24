@@ -4,7 +4,7 @@ import random
 
 # Download required resources
 nltk.download('movie_reviews')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Prepare dataset
 documents = [(list(movie_reviews.words(fileid)), category)
